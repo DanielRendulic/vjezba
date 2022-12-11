@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  
+}
+
+.container {
+  width: 100%;
+}
+
+.header-container {
+  margin: auto 2rem;
+  margin-top: 2rem;
+}
+
+.header-top {
+  background-color: black;
+  color: white;
+  border-top-right-radius: 10px;  
+  border-top-left-radius: 10px;  
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header-top svg {
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+}
+
+.header-top button {
+  position: relative;
+  
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.request-button {
+  background-color: black;
+  border-color: white;
+}
+
+.sign-in-button {
+  background-color: #4C5FD5;
+}
+
+.header-below {
+  background-color: #dadbf1;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-below input {
+  margin: 1rem 16rem 0 16rem;
+  padding: 0.6rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto 2rem;
+}
+
+.section {
+  text-align: left;
+  
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
